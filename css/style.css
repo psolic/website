@@ -1,0 +1,227 @@
+﻿p { text-align: justify; }
+
+/* ul-dates
+ **************************************************/
+ul.ul-dates,ul.ul-dates-gray {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.ul-dates li,ul.ul-dates-gray li {
+    margin-bottom: 15px; /*margin-left:  20px;
+	*/
+}
+
+ul.ul-dates div.dates,ul.ul-dates-gray div.dates {
+    float: left;
+    width: 75px;
+}
+
+ul.ul-dates div.dates span,ul.ul-dates-gray div.dates span {
+    background-color: #03cc85;
+    padding: 6px;
+    display: block;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+ul.ul-dates-gray div.dates span {
+    background-color: #BBBBBB;
+}
+
+ul.ul-dates div.dates span:last-child {
+	background-color: #03bb7a;
+}
+
+ul.ul-dates-gray div.dates span:last-child {
+    background-color: #979797;
+}
+
+ul.ul-dates-gray div.dates span:first-child,ul.ul-dates div.dates span:first-child {
+    -webkit-box-shadow: 0px 2px 6px -3px rgba(68, 68, 68, 0.5);
+    box-shadow: 0px 2px 6px -3px rgba(68, 68, 68, 0.5);
+    z-index: 3;
+    position: relative;
+}
+
+ul.ul-dates div.content,ul.ul-dates-gray div.content {
+    margin-left: 90px;
+    min-height: 70px;
+    padding-top: 10px;
+}
+
+ul.ul-dates div.content h4,ul.ul-dates-gray div.content h4 {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 0;
+}
+
+ul.ul-dates div.content p,ul.ul-dates-gray div.content p {
+    font-size: 13px;
+}
+
+/* ul-card
+ **************************************************/
+ul.ul-card {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.ul-card li {
+    position: relative;
+    padding: 50px 15px 20px 15px;
+    background-color: #fff;
+    margin-bottom: 15px;
+    -webkit-box-shadow: 0px 3px 3px -3px #ccc;
+    box-shadow: 0px 3px 3px -3px #ccc;
+    border-radius: 3px;
+    margin-left: 10px;
+    color: #333;
+}
+
+ul.ul-card li .dy {
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    border-radius: 0px;
+    padding: 0;
+    color: white;
+}
+
+ul.ul-card li .dy span {
+    padding: 7px 10px;
+    line-height: 30px;
+    margin: 0;
+}
+
+ul.ul-card li .dy .degree {
+	background-color: #03bb7a;
+}
+
+ul.ul-card li .dy .year {
+    background-color: #03cc85;
+    -webkit-box-shadow: -4px 0px 7px -3px rgba(68, 68, 68, 0.5);
+    box-shadow: -4px 0px 7px -3px rgba(68, 68, 68, 0.5);
+    margin-left: -4px !important;
+}
+
+ul.ul-card li .description p {
+    font-size: 16px;
+    margin: 0;
+}
+
+ul.ul-card li .description p.where {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.publicationsList
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.publicationsList .publicationYear
+{
+    background-color: #03cc85;
+    -webkit-box-shadow: -4px 0px 7px -3px rgba(68, 68, 68, 0.5);
+    box-shadow: -4px 0px 7px -3px rgba(68, 68, 68, 0.5);
+    margin-left: 4px !important;
+    padding: 7px 10px;
+    line-height: 30px;
+    margin: 0;
+    color: white;
+}
+
+.publicationsList .publicationYear_conf
+{
+    background-color: #3300ff;
+    -webkit-box-shadow: -4px 0px 7px -3px rgba(68, 68, 68, 0.5);
+    box-shadow: -4px 0px 7px -3px rgba(68, 68, 68, 0.5);
+    margin-left: 4px !important;
+    padding: 7px 10px;
+    line-height: 30px;
+    margin: 0;
+    color: white;
+}
+
+.publicationsList .publicationYear_other
+{
+    background-color: #7b00ff;
+    -webkit-box-shadow: -4px 0px 7px -3px rgba(68, 68, 68, 0.5);
+    box-shadow: -4px 0px 7px -3px rgba(68, 68, 68, 0.5);
+    margin-left: 4px !important;
+    padding: 7px 10px;
+    line-height: 30px;
+    margin: 0;
+    color: white;
+}
+
+
+#pub-grid .mix {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    display: none;
+}
+
+.pitems .item {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.pitems .pubmain {
+    background: #fefefe;
+    padding: 25px 25px 35px 25px;
+    min-height: 130px;
+    position: relative;
+
+    -webkit-box-shadow: 0px 3px 3px -3px #ccc;
+    box-shadow: 0px 3px 3px -3px #ccc;
+    cursor: pointer;
+}
+
+.pitems .pubtitle {
+    margin: 0;
+    padding: 0 0 15px 0;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.pitems .pubmain div {
+    font-size: small;
+}
+
+.pitems .pubmain .label {
+    margin-right: 10px;
+}
+
+.pitems .pubmain .pubassets {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+}
+
+.pitems .pubmain .pubassets a {
+    color: #9b9b9b;
+    padding: 5px 15px;
+    float: right;
+    font-size: 18px;
+}
+
+
+.pitems .pubdetails {
+    background: #fff;
+    padding: 25px;
+    display: none;
+}
+
+.icon-cloud-download:hover, .icon-plus:hover, .pubassets a:hover
+{
+    text-decoration: none;
+}
